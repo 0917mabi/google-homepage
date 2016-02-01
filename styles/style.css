@@ -1,23 +1,130 @@
 #searchform{
   text-align:center;
-  font-family: Arial
+  font-family: Arial;
 }
 
 #inputfield{
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  height: 38px;
+  max-width: 484px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-  margin:20px 0 20px 0
+#inputfield:focus{
+  border: 1px solid #2196f3;
+}
+
+#navbar {
+  float: right;
+  display: table;
+  width: 10%;
+  min-width: 301px;
+  align-items: center;
+}
+
+li {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 17px;
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  opacity: .75;
+}
+
+li a:hover{
+  text-decoration: underline;
+  opacity: .85;
+}
+
+#apps {
+  background-image: url("https://ssl.gstatic.com/gb/images/i2_2ec824b0.png");
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+  opacity:0.55;
+  display: table-cell;
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  margin-bottom:10px;
+}
+
+#apps:hover {
+  opacity: .85;
+}
+
+li div{
+  background-color: rgba(0, 0, 0, 0.55);
+  height:20px;
+  width: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+li div:hover{
+  background-color: black;
+}
+
+#notifications {
+  background-color: rgb(0,0,0,0.85);
+  background-image: url("https://ssl.gstatic.com/gb/images/i2_2ec824b0.png");
+  background-position: -194px -21px;
+  background-size: 528px 68px;
+  display: table-cell;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+#account {
+  height: 32px;
+  width: 32px;
+  display: table-cell;
+  background-image: url("https://lh4.googleusercontent.com/-h54MyB96BIo/AAAAAAAAAAI/AAAAAAAAAAA/6ucaLqdREHM/s64-c-mo/photo.jpg");
+  border-radius:50%;
+  background-size: 32px 32px;
 }
 
 #logo {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 #logo img {
   position: relative;
   padding-top: 109px;
-  width: 50%;
-  height: 50%;
+  width:272px;
+  height:92px;
+}
+
+#textbox{
+  height: 38px;
+  max-width: 484px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .button{
